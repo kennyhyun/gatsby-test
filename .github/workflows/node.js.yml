@@ -29,6 +29,6 @@ jobs:
     - run: npm ci
     - run: npm run deploy
       env:
-        GIT_AUTHOR_NAME=Kenny on Actions
-        GIT_AUTHOR_EMAIL=kenny+ghactions@yeoyou.net
+        GIT_AUTHOR_NAME: Kenny on Actions
+        GIT_AUTHOR_EMAIL: kenny+ghactions@yeoyou.net
 
