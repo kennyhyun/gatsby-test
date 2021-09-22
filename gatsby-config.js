@@ -32,6 +32,7 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        delims: ['<!---', '--->'],
         plugins: [
           {
             resolve: `gatsby-remark-images`,
