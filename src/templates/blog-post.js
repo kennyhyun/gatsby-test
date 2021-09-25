@@ -7,8 +7,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const BlogPostTemplate = ({ data, location }) => {
-  const post = data.markdownRemark
   const {
+    markdownRemark: post,
     previous,
     next,
     site: {
