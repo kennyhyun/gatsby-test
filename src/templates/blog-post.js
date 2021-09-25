@@ -12,7 +12,7 @@ const BlogPostTemplate = ({ data, location }) => {
   const { previous, next } = data
   const disqusConfig = {
     shortname: process.env.GATSBY_DISQUS_NAME,
-    config: { identifier: post.slug, title: post.frontmatter.title },
+    config: { identifier: post.fields.slug, title: post.frontmatter.title },
   };
 
   return (
