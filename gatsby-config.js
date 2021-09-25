@@ -11,6 +11,7 @@ module.exports = {
     social: {
       linkedin: `khyunyeo`,
       github: `kennyhyun`,
+      disqusShortName: `kennyyeoyounet`
     },
   },
   plugins: [
@@ -34,6 +35,7 @@ module.exports = {
       options: {
         delims: ['<!---', '--->'],
         plugins: [
+          `gatsby-remark-autolink-headers`,
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -49,6 +51,16 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          {
+            resolve: `gatsby-remark-classes`,
+            options: {
+              classMap: {
+                "heading[depth=1]": "title",
+                "heading[depth=2]": "subtitle",
+                // paragraph: "para",
+              }
+            }
+          },
         ],
       },
     },
