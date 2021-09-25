@@ -11,6 +11,7 @@ module.exports = {
     social: {
       linkedin: `khyunyeo`,
       github: `kennyhyun`,
+      disqusShortName: `kennyyeoyounet`
     },
   },
   plugins: [
