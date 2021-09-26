@@ -1,5 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Test Blog]]></title><description><![CDATA[A test blog demonstrating what Gatsby can do.]]></description><link>https://kenny.yeoyou.net/gatsby-test</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 25 Sep 2021 13:43:22 GMT</lastBuildDate><item><title><![CDATA[First mobile article]]></title><description><![CDATA[First mobile article 한번 써 봤습니다
-하하 피씨판에서 그림과 함께 수정해 보았습니다. ㅋㅋ image 그림을  로 붙여넣으니 매우 편리합니다!! 유니코드 아이콘 ✔✅⚠🟨🟥🔺🗯💬➗🔽⬇🚫❌⭕💦 js 코드블록 테스트 bash…]]></description><link>https://kenny.yeoyou.net/gatsby-test/hello/</link><guid isPermaLink="false">https://kenny.yeoyou.net/gatsby-test/hello/</guid><pubDate>Thu, 23 Sep 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;first-mobile-article&quot; style=&quot;position:relative;&quot; class=&quot;title&quot;&gt;&lt;a href=&quot;#first-mobile-article&quot; aria-label=&quot;first mobile article permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;First mobile article&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Test Blog]]></title><description><![CDATA[A test blog demonstrating what Gatsby can do.]]></description><link>https://kenny.yeoyou.net/gatsby-test</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 26 Sep 2021 12:35:21 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and…]]></description><link>https://kenny.yeoyou.net/gatsby-test/README/</link><guid isPermaLink="false">https://kenny.yeoyou.net/gatsby-test/README/</guid><content:encoded>&lt;!-- AUTO-GENERATED-CONTENT:START (STARTER) --&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;a href=&quot;https://www.gatsbyjs.com&quot;&gt;
+    &lt;img alt=&quot;Gatsby&quot; src=&quot;https://www.gatsbyjs.com/Gatsby-Monogram.svg&quot; width=&quot;60&quot;&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+&lt;h1 align=&quot;center&quot;&gt;
+  Gatsby&apos;s blog starter
+&lt;/h1&gt;
+&lt;p&gt;Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Have another more specific idea? You may want to check out our vibrant collection of &lt;a href=&quot;https://www.gatsbyjs.com/docs/gatsby-starters/&quot;&gt;official and community-created starters&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-quick-start&quot; style=&quot;position:relative;&quot; class=&quot;subtitle&quot;&gt;&lt;a href=&quot;#-quick-start&quot; aria-label=&quot; quick start permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🚀 Quick start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Create a Gatsby site.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Use the Gatsby CLI (&lt;a href=&quot;https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli&quot;&gt;install instructions&lt;/a&gt;) to create a new site, specifying the blog starter.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# create a new Gatsby site using the blog starter&lt;/span&gt;
+gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Start developing.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Navigate into your new site’s directory and start it up.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; my-blog-starter/
+gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Open the source code and start editing!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Your site is now running at &lt;code class=&quot;language-text&quot;&gt;http://localhost:8000&lt;/code&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: You’ll also see a second link: &lt;em&gt;&lt;code class=&quot;language-text&quot;&gt;http://localhost:8000/___graphql&lt;/code&gt;&lt;/em&gt;. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the &lt;a href=&quot;https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql&quot;&gt;Gatsby tutorial&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Open the &lt;code class=&quot;language-text&quot;&gt;my-blog-starter&lt;/code&gt; directory in your code editor of choice and edit &lt;code class=&quot;language-text&quot;&gt;src/pages/index.js&lt;/code&gt;. Save your changes and the browser will update in real time!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;-quick-start-gatsby-cloud&quot; style=&quot;position:relative;&quot; class=&quot;subtitle&quot;&gt;&lt;a href=&quot;#-quick-start-gatsby-cloud&quot; aria-label=&quot; quick start gatsby cloud permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🚀 Quick start (Gatsby Cloud)&lt;/h2&gt;
+&lt;p&gt;Deploy this starter with one click on &lt;a href=&quot;https://www.gatsbyjs.com/cloud/&quot;&gt;Gatsby Cloud&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-blog&quot;&gt;&lt;img src=&quot;https://www.gatsbyjs.com/deploynow.svg&quot; alt=&quot;Deploy to Gatsby Cloud&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-whats-inside&quot; style=&quot;position:relative;&quot; class=&quot;subtitle&quot;&gt;&lt;a href=&quot;#-whats-inside&quot; aria-label=&quot; whats inside permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🧐 What’s inside?&lt;/h2&gt;
+&lt;p&gt;A quick look at the top-level files and directories you’ll see in a Gatsby project.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;.
+├── node_modules
+├── src
+├── .gitignore
+├── .prettierrc
+├── gatsby-browser.js
+├── gatsby-config.js
+├── gatsby-node.js
+├── gatsby-ssr.js
+├── LICENSE
+├── package-lock.json
+├── package.json
+└── README.md&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;/node_modules&lt;/code&gt;&lt;/strong&gt;: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;/src&lt;/code&gt;&lt;/strong&gt;: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. &lt;code class=&quot;language-text&quot;&gt;src&lt;/code&gt; is a convention for “source code”.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;.gitignore&lt;/code&gt;&lt;/strong&gt;: This file tells git which files it should not track / not maintain a version history for.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;.prettierrc&lt;/code&gt;&lt;/strong&gt;: This is a configuration file for &lt;a href=&quot;https://prettier.io/&quot;&gt;Prettier&lt;/a&gt;. Prettier is a tool to help keep the formatting of your code consistent.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-browser.js&lt;/code&gt;&lt;/strong&gt;: This file is where Gatsby expects to find any usage of the &lt;a href=&quot;https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/&quot;&gt;Gatsby browser APIs&lt;/a&gt; (if any). These allow customization/extension of default Gatsby settings affecting the browser.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt;&lt;/strong&gt;: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the &lt;a href=&quot;https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/&quot;&gt;config docs&lt;/a&gt; for more detail).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-node.js&lt;/code&gt;&lt;/strong&gt;: This file is where Gatsby expects to find any usage of the &lt;a href=&quot;https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/&quot;&gt;Gatsby Node APIs&lt;/a&gt; (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-ssr.js&lt;/code&gt;&lt;/strong&gt;: This file is where Gatsby expects to find any usage of the &lt;a href=&quot;https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/&quot;&gt;Gatsby server-side rendering APIs&lt;/a&gt; (if any). These allow customization of default Gatsby settings affecting server-side rendering.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;LICENSE&lt;/code&gt;&lt;/strong&gt;: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;package-lock.json&lt;/code&gt;&lt;/strong&gt; (See &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt; below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. &lt;strong&gt;(You won’t change this file directly).&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt;&lt;/strong&gt;: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;README.md&lt;/code&gt;&lt;/strong&gt;: A text file containing useful reference information about your project.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;-learning-gatsby&quot; style=&quot;position:relative;&quot; class=&quot;subtitle&quot;&gt;&lt;a href=&quot;#-learning-gatsby&quot; aria-label=&quot; learning gatsby permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🎓 Learning Gatsby&lt;/h2&gt;
+&lt;p&gt;Looking for more guidance? Full documentation for Gatsby lives &lt;a href=&quot;https://www.gatsbyjs.com/&quot;&gt;on the website&lt;/a&gt;. Here are some places to start:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;For most developers, we recommend starting with our &lt;a href=&quot;https://www.gatsbyjs.com/tutorial/&quot;&gt;in-depth tutorial for creating a site with Gatsby&lt;/a&gt;.&lt;/strong&gt; It starts with zero assumptions about your level of ability and walks through every step of the process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;To dive straight into code samples, head &lt;a href=&quot;https://www.gatsbyjs.com/docs/&quot;&gt;to our documentation&lt;/a&gt;.&lt;/strong&gt; In particular, check out the &lt;em&gt;Guides&lt;/em&gt;, &lt;em&gt;API Reference&lt;/em&gt;, and &lt;em&gt;Advanced Tutorials&lt;/em&gt; sections in the sidebar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;-deploy&quot; style=&quot;position:relative;&quot; class=&quot;subtitle&quot;&gt;&lt;a href=&quot;#-deploy&quot; aria-label=&quot; deploy permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;💫 Deploy&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/products/cloud/&quot;&gt;Build, Deploy, and Host On The Only Cloud Built For Gatsby&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.&lt;/p&gt;
+&lt;!-- AUTO-GENERATED-CONTENT:END --&gt;</content:encoded></item><item><title><![CDATA[First mobile article]]></title><description><![CDATA[First mobile article 한번 써 봤습니다
+하하 피씨판에서 그림과 함께 수정해 보았습니다. ㅋㅋ image 그림을  로 붙여넣으니 매우 편리합니다!! 유니코드 아이콘 ✔✅⚠🟨🟥🔺🗯💬➗🔽⬇🚫❌⭕💦 js 코드블록 테스트 bash…]]></description><link>https://kenny.yeoyou.net/gatsby-test/docs/hello/</link><guid isPermaLink="false">https://kenny.yeoyou.net/gatsby-test/docs/hello/</guid><pubDate>Thu, 23 Sep 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;first-mobile-article&quot; style=&quot;position:relative;&quot; class=&quot;title&quot;&gt;&lt;a href=&quot;#first-mobile-article&quot; aria-label=&quot;first mobile article permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;First mobile article&lt;/h1&gt;
 &lt;p&gt;한번 써 봤습니다
 하하&lt;/p&gt;
 &lt;p&gt;피씨판에서 그림과 함께 수정해 보았습니다. ㅋㅋ&lt;/p&gt;
@@ -24,7 +125,7 @@
 &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;===
 &lt;span class=&quot;token variable&quot;&gt;$variable&lt;/span&gt;
 ---------&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[Hello World This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh…]]></description><link>https://kenny.yeoyou.net/gatsby-test/hello-world/</link><guid isPermaLink="false">https://kenny.yeoyou.net/gatsby-test/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;h1 id=&quot;hello-world&quot; style=&quot;position:relative;&quot; class=&quot;title&quot;&gt;&lt;a href=&quot;#hello-world&quot; aria-label=&quot;hello world permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hello World&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[Hello World This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh…]]></description><link>https://kenny.yeoyou.net/gatsby-test/docs/hello-world/</link><guid isPermaLink="false">https://kenny.yeoyou.net/gatsby-test/docs/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;h1 id=&quot;hello-world&quot; style=&quot;position:relative;&quot; class=&quot;title&quot;&gt;&lt;a href=&quot;#hello-world&quot; aria-label=&quot;hello world permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hello World&lt;/h1&gt;
 &lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
 &lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
 &lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
