@@ -7,8 +7,8 @@ import Seo from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
-  const { html = '' } = data.markdownRemark || {}
+  const { nodes: posts, totalCount } = data.allMarkdownRemark
+  const { html = "" } = data.markdownRemark || {}
   const readmeHtml = html?.replace(/<h1.*<\/h1>/, "")
 
   if (posts.length === 0) {
@@ -68,6 +68,11 @@ const BlogIndex = ({ data, location }) => {
             )
           })}
         </ol>
+        {totalCount > posts.length && (
+          <a href="./list">
+            <h5>All articles...</h5>
+          </a>
+        )}
       </footer>
       <hr />
     </Layout>
@@ -100,6 +105,7 @@ export const pageQuery = graphql`
           description
         }
       }
+      totalCount
     }
     markdownRemark(fileAbsolutePath: { glob: "**/README.md" }) {
       id
