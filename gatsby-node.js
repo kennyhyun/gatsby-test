@@ -103,6 +103,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type MarkdownRemark implements Node {
       frontmatter: Frontmatter
       fields: Fields
+      fileAbsolutePath: String
     }
 
     type Frontmatter {

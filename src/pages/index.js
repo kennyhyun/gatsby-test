@@ -90,6 +90,7 @@ export const pageQuery = graphql`
     ) {
       nodes {
         excerpt
+        fileAbsolutePath
         fields {
           slug
         }
