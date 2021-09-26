@@ -20,6 +20,7 @@ const Bio = () => {
           }
           social {
             twitter
+            github
           }
         }
       }
@@ -48,12 +49,12 @@ const Bio = () => {
           {` `}
           {social?.github && (
             <a href={`https://github.com/${social?.github}`}>
-              You should check on Github
+              Check on Github
             </a>
           )}
           {social?.twitter && (
             <a href={`https://twitter.com/${social?.twitter}`}>
-              You should follow them on Twitter
+              Follow them on Twitter
             </a>
           )}
         </p>
