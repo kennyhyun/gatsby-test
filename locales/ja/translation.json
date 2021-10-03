@@ -1,0 +1,10 @@
+{
+  "Hello": "ハロー",
+  "date_format_one": "La date actuelle est {{date1}}",
+  "date_format_two": "La date actuelle est {{date2}}",
+  "Home": "ホーム",
+  "Hi people": "皆さん元気ですか",
+  "Welcome to your new Gatsby site.": "ギャツビーサイトへようこそ",
+  "Now go build something great.": "それでは素敵なサイトをどうぞ",
+  "Go to page 2": "ページ２へ"
+}
