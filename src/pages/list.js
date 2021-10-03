@@ -74,7 +74,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { glob: "**/docs/**/*" } }
+      filter: { fields: { slug: { glob: "/docs/**" } } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       nodes {
