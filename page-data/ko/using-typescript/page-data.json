@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-using-typescript-tsx",
     "path": "/ko/using-typescript/",
-    "result": {"data":{"site":{"buildTime":"2021-10-04 12:08 am UTC"}},"pageContext":{"language":"ko","i18n":{"language":"ko","languages":["en","ko","ja"],"defaultLanguage":"en","generateDefaultLanguagePage":false,"routed":true,"originalPath":"/using-typescript/","path":"ko/using-typescript/"}}},
+    "result": {"data":{"site":{"buildTime":"2021-10-04 12:12 am UTC"}},"pageContext":{"language":"ko","i18n":{"language":"ko","languages":["en","ko","ja"],"defaultLanguage":"en","generateDefaultLanguagePage":false,"routed":true,"originalPath":"/using-typescript/","path":"ko/using-typescript/"}}},
     "staticQueryHashes": ["3347749741"]}
