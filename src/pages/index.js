@@ -1,11 +1,14 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
+import { Link, useI18next, Trans, useTranslation } from "gatsby-plugin-react-i18next"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
+  const {languages, originalPath} = useI18next();
+  const { t } = useTranslation()
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { nodes: posts, totalCount } = data.allMarkdownRemark
   const { html = "" } = data.markdownRemark || {}
@@ -29,6 +32,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts" />
       <Bio />
+      <Trans>Hello</Trans>
       <section
         dangerouslySetInnerHTML={{ __html: readmeHtml }}
         itemProp="articleBody"
@@ -89,7 +93,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { glob: "**/docs/**/*" } }
+      filter: { fields: { slug: { glob: "/docs/**" } } }
       limit: 4
       sort: { fields: [frontmatter___date], order: DESC }
     ) {

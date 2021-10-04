@@ -1,22 +1,24 @@
 const path = require('path');
 const rootDir = path.resolve(__dirname);
 
+const siteMetadata = {
+  title: `Gatsby Test Blog`,
+  author: {
+    name: `Kenny Yeo`,
+    summary: `who lives and works in Sydney building useful things.`,
+  },
+  description: `A test blog demonstrating what Gatsby can do.`,
+  siteUrl: `https://kenny.yeoyou.net/gatsby-test/`,
+  social: {
+    linkedin: `khyunyeo`,
+    github: `kennyhyun`,
+    disqusShortName: `kennyyeoyounet`
+  },
+};
+
 module.exports = {
   pathPrefix: `/gatsby-test`,
-  siteMetadata: {
-    title: `Gatsby Test Blog`,
-    author: {
-      name: `Kenny Yeo`,
-      summary: `who lives and works in Sydney building useful things.`,
-    },
-    description: `A test blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://kenny.yeoyou.net/gatsby-test/`,
-    social: {
-      linkedin: `khyunyeo`,
-      github: `kennyhyun`,
-      disqusShortName: `kennyyeoyounet`
-    },
-  },
+  siteMetadata,
   plugins: [
     `gatsby-plugin-image`,
     {
@@ -26,6 +28,44 @@ module.exports = {
         path: rootDir,
         ignore: [new RegExp(`^${rootDir}\/((?!(docs|README)).)*$`, 'i')],
       },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/locales`,
+        name: `locale`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-react-i18next`,
+      options: {
+        localeJsonSourceName: `locale`,
+        languages: [`en`, `ko`, `ja`],
+        defaultLanguage: `en`,
+        siteUrl: siteMetadata.siteUrl,
+        i18nextOptions: {
+          interpolation: {
+            escapeValue: false
+          },
+          keySeparator: false,
+          nsSeparator: false
+        },
+        pages: [
+          {
+            matchPath: '/:lang?/docs/:uid',
+            getLanguageFromPath: true,
+          },
+          {
+            matchPath: '/',
+            languages: ['en']
+          },
+          {
+            // example
+            matchPath: '/preview',
+            languages: ['en']
+          }
+        ]
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
