@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-using-typescript-tsx",
+    "path": "/ja/using-typescript/",
+    "result": {"data":{"site":{"buildTime":"2021-10-04 12:08 am UTC"}},"pageContext":{"language":"ja","i18n":{"language":"ja","languages":["en","ko","ja"],"defaultLanguage":"en","generateDefaultLanguagePage":false,"routed":true,"originalPath":"/using-typescript/","path":"ja/using-typescript/"}}},
+    "staticQueryHashes": ["3347749741"]}
